@@ -1,3 +1,7 @@
+import { useEffect, useRef } from "react";
+import * as THREE from "three";
+import classes from "./GettingStarted.module.css";
+
 export function GettingStarted() {
   const mountRef = useRef(null);
   const initialized = useRef(false); // ⬅️ flag

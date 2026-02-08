@@ -1,0 +1,14 @@
+.nav {
+  display: block;
+}
+
+.ul {
+  display: flex;
+}
+
+.ul > li {
+  margin-right: 1.5em;
+}
+.ul > li + li {
+  margin-top: 0;
+}
