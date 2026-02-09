@@ -7,6 +7,7 @@ import { GettingStarted } from "./components/GettingStarted";
 import { CubeGeometry } from "./components/CubeGeometry";
 import { Navbar } from "./components/Navbar";
 import { Layout } from "./components/Layout";
+import { RainTexture } from "./components/RainTexture";
 
 function App() {
   const router = createBrowserRouter([
@@ -21,6 +22,11 @@ function App() {
         {
           path: "/cube-geometry",
           element: <CubeGeometry />,
+        },
+
+        {
+          path: "/rain-texture",
+          element: <RainTexture />,
         },
       ],
     },

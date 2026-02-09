@@ -11,6 +11,9 @@ export function Navbar() {
           <li>
             <Link to={"cube-geometry"}>3d Cube</Link>
           </li>
+          <li>
+            <Link to={"rain-texture"}>Rain Texture</Link>
+          </li>
         </ul>
       </nav>
     </>
