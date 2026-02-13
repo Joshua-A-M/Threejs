@@ -45,6 +45,7 @@ export function GettingStarted() {
 
     // Floor
     const floor = new THREE.Mesh(
+      //  BoxGeometry(x, y, z)
       new THREE.BoxGeometry(10, 0.25, 10),
       new THREE.MeshStandardMaterial({ color: 0xffffff }),
     );

@@ -8,6 +8,7 @@ import { CubeGeometry } from "./components/CubeGeometry";
 import { Navbar } from "./components/Navbar";
 import { Layout } from "./components/Layout";
 import { RainTexture } from "./components/RainTexture";
+import { GroupGeometry } from "./components/GroupGeometry";
 
 function App() {
   const router = createBrowserRouter([
@@ -27,6 +28,10 @@ function App() {
         {
           path: "/rain-texture",
           element: <RainTexture />,
+        },
+        {
+          path: "/group-geometry",
+          element: <GroupGeometry />,
         },
       ],
     },
