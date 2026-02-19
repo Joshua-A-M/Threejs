@@ -17,6 +17,12 @@ export function Navbar() {
           <li>
             <Link to={"group-geometry"}>Group Geometry</Link>
           </li>
+          <li>
+            <Link to={"rotating-geometry"}>Rotating Geometry</Link>
+          </li>
+          <li>
+            <Link to={"dominos"}>Dominos</Link>
+          </li>
         </ul>
       </nav>
     </>

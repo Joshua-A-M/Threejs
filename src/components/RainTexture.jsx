@@ -184,5 +184,7 @@ export function RainTexture() {
     };
   }, []);
 
+  
+
   return <div ref={mountRef} style={{ width: "100vw", height: "100vh" }} />;
 }

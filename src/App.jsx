@@ -9,6 +9,8 @@ import { Navbar } from "./components/Navbar";
 import { Layout } from "./components/Layout";
 import { RainTexture } from "./components/RainTexture";
 import { GroupGeometry } from "./components/GroupGeometry";
+import { RotatingGeometry } from "./components/RotatingGeometry";
+import { Dominos } from "./components/Dominos";
 
 function App() {
   const router = createBrowserRouter([
@@ -33,6 +35,14 @@ function App() {
           path: "/group-geometry",
           element: <GroupGeometry />,
         },
+        {
+          path: "/rotating-geometry",
+          element: <RotatingGeometry />,
+        },
+        {
+          path: "/dominos",
+          element: <Dominos />
+        }
       ],
     },
   ]);
