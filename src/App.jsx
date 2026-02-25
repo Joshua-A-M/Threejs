@@ -11,6 +11,7 @@ import { RainTexture } from "./components/RainTexture";
 import { GroupGeometry } from "./components/GroupGeometry";
 import { RotatingGeometry } from "./components/RotatingGeometry";
 import { Dominos } from "./components/Dominos";
+import { Drag } from "./components/Drag";
 
 function App() {
   const router = createBrowserRouter([
@@ -42,6 +43,10 @@ function App() {
         {
           path: "/dominos",
           element: <Dominos />
+        },
+        {
+          path: "/drag",
+          element: <Drag />
         }
       ],
     },

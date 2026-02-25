@@ -66,7 +66,13 @@ export function CubeGeometry() {
       renderer.dispose();
       geometry.dispose();
       material.dispose();
-      container.removeChild(renderer.domElement);
+      // ✅ SAFE DOM removal
+      if (
+        mountRef.current &&
+        renderer.domElement.parentNode === mountRef.current
+      ) {
+        mountRef.current.removeChild(renderer.domElement);
+      }
     };
   }, []);
   return (

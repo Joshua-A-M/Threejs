@@ -23,6 +23,9 @@ export function Navbar() {
           <li>
             <Link to={"dominos"}>Dominos</Link>
           </li>
+          <li>
+            <Link to={"drag"}>Drag</Link>
+          </li>
         </ul>
       </nav>
     </>
